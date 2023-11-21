@@ -1226,7 +1226,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 32000, 815 }  //LTJB
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 3200, 815 }  //LTJB
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
